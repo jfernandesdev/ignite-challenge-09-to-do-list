@@ -1,5 +1,11 @@
+import { Header } from './components/Header'
+
 import './styles/global.scss'
 
 export function App() {
- return <h1>Hello World!</h1>
+ return (
+  <>
+    <Header />
+  </>
+ )
 }
