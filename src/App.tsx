@@ -1,6 +1,5 @@
 import { Header } from './components/Header'
-import { FormNewTask } from './components/FormNewTask'
-import { Tasks } from './components/Tasks'
+import { TaskList } from './components/TaskList'
 
 import './styles/global.scss'
 
@@ -8,8 +7,7 @@ export function App() {
   return (
     <>
       <Header />
-      <FormNewTask />
-      <Tasks />
+      <TaskList />
     </>
   )
 }
